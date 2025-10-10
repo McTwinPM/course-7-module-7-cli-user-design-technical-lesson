@@ -45,15 +45,15 @@ pipenv shell
 You can run the CLI using:
 
 ```bash
-python generate_cli.py
+python task_cli.py
 ```
 
 Examples:
 
 ```bash
-python generate_cli.py --help
-python generate_cli.py add "Finish the README"
-python generate_cli.py list
+python task_cli.py --help
+python task_cli.py add "Finish the README"
+python task_cli.py list
 ```
 
 ---
@@ -62,7 +62,7 @@ python generate_cli.py list
 
 ```
 .
-├── generate_cli.py           # Entry point for the CLI
+├── task_cli.py           # Entry point for the CLI
 ├── lib/
 │   ├── __init__.py
 │   └── cli_tool.py           # Contains argparse logic and command handlers
