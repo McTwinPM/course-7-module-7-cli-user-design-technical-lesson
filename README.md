@@ -66,10 +66,8 @@ python generate_cli.py list
 ├── lib/
 │   ├── __init__.py
 │   └── cli_tool.py           # Contains argparse logic and command handlers
-├── test_cli_tool.py          # CLI behavior tests
 ├── Pipfile
-├── Pipfile.lock
-├── pytest.ini
+├── .gitignore
 ├── README.md
 ```
 
